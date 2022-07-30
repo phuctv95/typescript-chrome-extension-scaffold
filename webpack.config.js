@@ -9,15 +9,15 @@ module.exports = {
         background: './src/background.ts',
         popup: {
             import: './src/popup/popup.ts',
-            filename: 'popup/[name].js', // Customize the path in output folder.
+            filename: 'popup/[name].js',
         },
         options: {
             import: './src/options/options.ts',
-            filename: 'options/[name].js', // Customize the path in output folder.
+            filename: 'options/[name].js',
         },
         'content-script': {
             import: './src/content-script/content-script.ts',
-            filename: 'content-script/[name].js', // Customize the path in output folder.
+            filename: 'content-script/[name].js',
         },
     },
     module: {
